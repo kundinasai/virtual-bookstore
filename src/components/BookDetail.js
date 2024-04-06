@@ -3,7 +3,7 @@ import React from 'react';
 import './BookDetail.css';
 
 function BookDetail({ book, onClose }) {
-  return (
+  return ( 
     <div className="book-detail">
       <img src={book.volumeInfo.imageLinks.thumbnail} alt={book.volumeInfo.title} />
       <div className="details">

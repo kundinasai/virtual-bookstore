@@ -17,7 +17,7 @@ function BookList({ books, onBookClick }) {
           </div>
         ))}
       </div>
-    </div>
+    </div> 
   );
 }
 

@@ -19,6 +19,6 @@ function BookList({ books, onBookClick }) {
       </div>
     </div> 
   );
-}
+} 
 
 export default BookList;

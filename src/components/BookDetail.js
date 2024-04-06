@@ -4,7 +4,7 @@ import './BookDetail.css';
 
 function BookDetail({ book, onClose }) {
   return ( 
-    <div className="book-detail">
+    <div className="book-detail"> 
       <img src={book.volumeInfo.imageLinks.thumbnail} alt={book.volumeInfo.title} />
       <div className="details">
         <h2>{book.volumeInfo.title}</h2>

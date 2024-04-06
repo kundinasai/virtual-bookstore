@@ -22,7 +22,7 @@ function SearchBar({ onSearch }) {
         onChange={handleInputChange}
       />
       <button onClick={handleSearch}>Search</button>
-    </div>
+    </div> 
   ); 
 }
 

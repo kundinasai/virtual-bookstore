@@ -40,7 +40,7 @@ function App() {
       setBooks(response.data.items);
     } catch (error) {
       console.error('Error searching for books:', error);
-    }
+    } 
   };
 
   return ( 
